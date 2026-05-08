@@ -1,0 +1,440 @@
+{
+  "$schema": "verbatim-content-lock-v1",
+  "source": {
+    "url": "https://astroascend.my.canva.site/",
+    "fetched_at": "2026-05-08",
+    "method": "Headless Chromium (Puppeteer) + JSON-blob extraction from rendered HTML",
+    "lang": "en-GB",
+    "title": "Home",
+    "note": "Every string below is preserved verbatim from the source site. Spelling, punctuation, capitalisation, and known typos (e.g. 'envison', 'truely', 'recived', 'Imarting') are intentionally preserved. Do NOT 'fix' them in any redesign."
+  },
+  "navigation": {
+    "links": [
+      { "label": "Home", "href": "/", "id": "home" },
+      { "label": "Masterclasses", "href": "/masterclasses", "id": "masterclasses" },
+      { "label": "Another Comet", "href": "/another-comet", "id": "another-comet" },
+      { "label": "Our Mentors", "href": "/our-mentors", "id": "our-mentors" },
+      { "label": "Coming Soon", "href": "/coming-soon", "id": "coming-soon" },
+      { "label": "Join Us", "href": "/join-us", "id": "join-us" }
+    ]
+  },
+  "pages": {
+    "home": {
+      "id": "home",
+      "label": "Home",
+      "sections": [
+        {
+          "id": "hero",
+          "kind": "hero",
+          "brand_mark": "ASTROASCEND",
+          "tagline": "The Knowledge Realm"
+        },
+        {
+          "id": "why",
+          "kind": "text-block",
+          "heading": "Why ASTROASCEND?",
+          "body": "Humans are at the top of everyone else, not only because of their immense understanding of nature, but also because of how we update and keep making new things to satisfy our needs. We need the commercialisation of such knowledge with children who are eager to learn and that is what AstroAscend does."
+        },
+        {
+          "id": "what",
+          "kind": "text-block",
+          "heading": "What is ASTROASCEND ?",
+          "body_lead": "AstroAscend",
+          "body": "AstroAscend is an educational platform dedicated to providing comprehensive and innovative learning experiences. Our curriculum extends beyond traditional school subjects, delving into the underlying mechanics of each topic and exploring relevant extracurricular contexts."
+        },
+        {
+          "id": "code-of-conduct",
+          "kind": "three-column",
+          "heading": "Code of Conduct",
+          "columns": [
+            {
+              "subheading": "About our teachers",
+              "body": "AstroAscend is a company which believes in peer teaching. A person tends to listen better and learn better if he is able to connect with his teacher and with changing times where every 5 years new ideology comes up , only students can connect with others."
+            },
+            {
+              "subheading": "How we work",
+              "body": "Being run by students is a huge task both for the learning and learned, AstroAscend is a company which performs to give knowledge to every person however a master of a subject the person is."
+            },
+            {
+              "subheading": "To the Environment",
+              "body": "AstroAscend believes in an Environment first policy. Every person who joins us is issued a pledge to serve and protect Mother Earth from all threats. The nature of the human race is not to destroy but to save and protect, that is what we stand for and stand by it"
+            }
+          ]
+        },
+        {
+          "id": "vision-mission",
+          "kind": "two-column",
+          "columns": [
+            {
+              "heading": "Vision",
+              "body": "To make a a group of heart awakened leaders who are not only good at studying but are also awakened to the real world through consciousness and creativity."
+            },
+            {
+              "heading": "Mission",
+              "body": "To connect with students one on one and to teach each person at their own pace, to create trailblazers for the greater good, For a better tomorrow"
+            }
+          ]
+        },
+        {
+          "id": "closing",
+          "kind": "tagline-block",
+          "lines": [
+            "AstroAscend - For the greater good",
+            "For the future we envison"
+          ]
+        }
+      ]
+    },
+    "masterclasses": {
+      "id": "masterclasses",
+      "label": "Masterclasses",
+      "header": {
+        "title": "Master Classes",
+        "subtitle": "Master Your Craft, Master Your Passion."
+      },
+      "courses": [
+        {
+          "id": "astronomy",
+          "title": "AstroNOMY",
+          "description": "Gain hands-on experience in astronomy. Learn from experts, explore the night sky, and contribute to research projects. Perfect for aspiring astronomers and science enthusiasts. Start a conversation on the cosmos and learn the theory behind it.",
+          "details": [
+            "Level 1 - ₹500  ₹399 (Discount until June 2026)",
+            "15 day Course",
+            "158 Students Mentored till date"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Click Here", "kind": "primary" }
+          ]
+        },
+        {
+          "id": "psychology",
+          "title": "Foundations of Psychology",
+          "description": "Ever caught yourself wondering why you’re like this?why you feel the way you feel? Foundations of Psychology breaks down the basics of how the mind works. From perception to personality, it covers the essential basics of psychology. If understanding people fascinates you, this is where it begins.",
+          "details": [
+            "Cost - ₹999 ₹599",
+            "16 Day Course",
+            "123 Students mentored till date"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Click Here", "kind": "primary" }
+          ]
+        },
+        {
+          "id": "quantum",
+          "title": "Quantum Mechanics and quantum Computing",
+          "description": "Explore the fascinating world of quantum mechanics. Understand the ideas Max Planck came up with and what was used by Einstein to win a Nobel Prize, or just understand why Ant-Man was “trapped” in the Quantum Realm",
+          "details": [
+            "Level 1 - ₹899  ₹599 (Discount until June 2025)",
+            "15 Day Course",
+            "121 Students Mentored till date"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Click Here", "kind": "primary" }
+          ]
+        },
+        {
+          "id": "linkedin",
+          "title": "LINKeDIN 101",
+          "description": "Learn about the variation of today, on how to present yourself to the world through Linkedin, world’s largest informtion Network and how to build a network towards finding the perfect Job/future",
+          "details": [
+            "Cost - ₹500"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Click Here", "kind": "primary" }
+          ]
+        },
+        {
+          "id": "astrophysics",
+          "title": "AstroPhysics",
+          "description": "Dive deep into the mysteries of the universe. Understand the cosmos and start your journey to contribute to groundbreaking research. Understand the Physics and Science behind the Universe. If it is the mysteries of the cosmos which keep you awake at night, then you are at the right spot",
+          "details": [
+            "Level 1 - ₹1199  ₹799 (Discount until June 2025)",
+            "15 Day Course",
+            "152 Students mentored till date"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Click Here", "kind": "primary" }
+          ]
+        },
+        {
+          "id": "semiconductors",
+          "title": "Semiconductors",
+          "description": "The future of humanity depends on the advancement of semiconductor technology. Semiconductors are the foundation of innovation, driving fields such as AI, aerospace, flexible devices, and submarines. Understand why such a small device creates a massive punch and why every nation in the world is trying so hard to make it smaller",
+          "details": [
+            "Cost : ₹799  ₹599 (Discount until June 2025)",
+            "20 Day Course",
+            "107 Students mentored till date"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Click Here", "kind": "primary" }
+          ]
+        },
+        {
+          "id": "molecular-biology",
+          "title": "Molecular biology and genetics",
+          "description": "The Molecular Biology and Genetics masterclass and internship provide in-depth knowledge of microorganisms and essential lab techniques. You'll gain practical experience in culturing, identifying, and analyzing microbes, preparing you for advanced studies or a career in microbiology, biotechnology, or related fields.",
+          "details": [
+            "Level 1 - ₹1750",
+            "20 Day Course"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Click Here", "kind": "primary" }
+          ]
+        },
+        {
+          "id": "ai-ml",
+          "title": "Ai with ML",
+          "description": "The AI with ML masterclass and internship offer in-depth learning of artificial intelligence and machine learning concepts. You'll gain hands-on experience with algorithms, data analysis, and model building, equipping you with practical skills for careers in AI and data science.",
+          "details": [
+            "Level 1 - ₹1750",
+            "7 Day Class",
+            "Certified Masterclass"
+          ],
+          "ctas": [
+            { "label": "Brochure", "kind": "secondary" }
+          ]
+        }
+      ],
+      "contact": {
+        "label": "For more Information",
+        "email_label": "Email",
+        "email": "astroascend17@gmail.com"
+      }
+    },
+    "another-comet": {
+      "id": "another-comet",
+      "label": "Another Comet",
+      "header": {
+        "title": "Another Comet",
+        "subtitle": "Blasting off to galactic learning"
+      },
+      "intro": {
+        "heading": "Exhibitions and Startups",
+        "body": "Be a part of something greater. Solve actual problems of the world with your own skill and understanding and develop a greater understanding to whatever subject you are attached to.",
+        "tag": "Free class",
+        "cta": { "label": "Click Here" }
+      },
+      "courses": [
+        {
+          "id": "chess",
+          "title": "CHESS",
+          "description": "One of the world’s most loved games—with its rages, its sorrows and happiness. Experience why people truely love this game and what you should be doing to get better at it.",
+          "details": ["Cost - ₹14/month"],
+          "tag": "Masterclass",
+          "cta": { "label": "Click Here" }
+        },
+        {
+          "id": "quizzing",
+          "title": "Quizzing",
+          "description": "Try your brain at everything under the sun, maybe General Knowledge, History, Art or Science or anything that pleases your heart. Take your time out with peers to enjoy this FUN or Frustrating comic of life in a new way.",
+          "tag": "Free class",
+          "cta": { "label": "Click Here" }
+        },
+        {
+          "id": "mun",
+          "title": "Mun",
+          "description": "Model UN conference, students work as the representatives of a country, an organization, or a person and aim to solve problems working with other delegates from around the world. Join us to understand its working and start your MUN journey .",
+          "details": ["Cost - ₹1200"],
+          "tag": "Masterclass",
+          "cta": { "label": "Click Here" }
+        },
+        {
+          "id": "myths",
+          "title": "Myths and quests",
+          "description": "Ever thought of why Loki is not a God from birth or why Cleopatra was the last Egyptian ruler? Then join us to have a fun conversation about - Mythology, Faiths, different beliefs and figure out for yourself.",
+          "tag": "Free Class",
+          "cta": { "label": "Click Here" }
+        },
+        {
+          "id": "western-vocals",
+          "title": "WesterN Vocals",
+          "description": "Give your voice and thought and open it to the world of music, maybe the do re mi..... might satisfy your hunger for music. If you are fascinated by the creation of Mozart or Hofer or just want to learn something new, you are at the right place.",
+          "tag": "Masterclass",
+          "cta": { "label": "Click Here" }
+        },
+        {
+          "id": "piano",
+          "title": "Keyboard/PIANO",
+          "description": "Piano masterclass are intensive workshops led by experienced pianists and teachers. They provide students with the opportunity to learn from experts, receive individualized feedback, and develop their skills in a supportive environment. Masterclasses can cover a variety of topics, such as technique, interpretation, performance, and composition.",
+          "tag": "Masterclass",
+          "badge": "Coming Soon"
+        }
+      ]
+    },
+    "our-mentors": {
+      "id": "our-mentors",
+      "label": "Our Mentors",
+      "header": {
+        "title": "Our Mentors",
+        "subtitle": "Check Out our mentors"
+      },
+      "intro": {
+        "heading": "What Makes us better ?",
+        "body": "Our mentor base is truly exceptional, each bringing years of valuable experience in their respective fields. They are committed to helping you not only expand your knowledge but also enhance your portfolio in meaningful ways. Through personalised guidance and industry insights, our mentors will work closely with you to identify your strengths, address your weaknesses, and develop a tailored plan to achieve your goals. With their support, you’ll gain the confidence and skills necessary to excel in your career."
+      },
+      "back_to_top_label": "back to top",
+      "mentors": [
+        {
+          "id": "dev-keerthi-p",
+          "name": "Dev Keerthi P",
+          "role_attribution": "Dev Keerthi P, CEO and Mentor - AstroAscend",
+          "bio": "A Creator, A Founder, A Scientist. An Intellectual. A student of Theology. These are just a few of the many things that he is and will ever be. Currently studying in RV College of Engineering, driven by curiosity and a deep desire to make an impact through innovation and creativity he creates new projects every year to push humanity to greater good.",
+          "details": "He teaches these topics and has received training from the following institutions:\n\nAstronomy: Trained by Edumithra, IIT Madras (IITM), and Indian Institute of Science (IISC)\nAstrophysics: Trained by Star Labs, IIT Madras (IITM), IISC, and BITS Pilani\nQuantum Mechanics: Trained at IIT Madras (IITM), BITS Pilani, and IIT Delhi (IITD)\nSemiconductors: Trained at IISC Bangalore\n\nAdditionally, he has worked on three major projects:\n1. AgniSAT: Focused on global warming control\n2. V.A.Y.U.D.E.V: Aimed at reducing the need for air conditioning (AC)\n3. Mixed VidyuthKosh: Aimed to increase defence capabilities\n\nHe is currently working on projects on Semiconductors with IISC and Quantum mechanics with RVCE",
+          "quote": "“A mentor is more than just what we see - it is the one who holds your hand and makes sure you reach your destination no matter what”"
+        },
+        {
+          "id": "krishna-deepti",
+          "name": "Krishna Deepti",
+          "role_attribution": "Krishna Deepti. Mentor - AstroAscend",
+          "bio": "This is Krishna Deepti, currently a second-year undergraduate student at CHRIST University, Bangalore, pursuing Psychology and English (Honours), who has been passionate about psychology for many years, with a deep interest in the biological basis of behaviour and the clinical aspects.",
+          "details": "Deepti with her deep understanding of clinical psychology, handles the Foundations of Pyschology because of her work in :\n\nResearch Experience – interned at IIIT Sri City; worked for 150+ hours on a study examining the association between psychological disorders and EEG signals.\nTraining & Certifications – Completed a 2-month psychology training. Certified in Leadership Skill Development and Communication Skill Development through Christ University.\nPeer Education & Teaching – Trained Peer Educator through a year-long university program guided by counsellors and psychiatrists.\n Social Work- Worked with Need Base India-Rainbow Home, Bangalore. Taught life skills to students from Class 1 to Class 12.\n\n Currently she is conducting mental health and life skills sessions for first-year university students.",
+          "quote": "“Studying psychology taught me that behind every behaviour is a story worth understanding.”"
+        },
+        {
+          "id": "varsha-deepak",
+          "name": "Varsha Deepak",
+          "role_attribution": "Varsha Deepak, Mentor - AstroAscend",
+          "bio": "Varsha Deepak is a Western Vocal Instructor with over 15 years of musical experience, trained in both Carnatic and Western vocals. Her journey from classical foundations to Western performance has shaped her disciplined, technique-focused, and confidence-building approach to teaching.",
+          "details": "We're thrilled to announce that Varsha Deepak will be taking charge of our Western Vocals classes and these are her achievements in music.\n\n Western Vocal Music: Formally trained at Trinity College London with 15 years of singing experience.  \nVocal Technique: Background in Carnatic music and advanced Western techniques, emphasizing breath control, pitch accuracy, and vocal health.  \nPerformance: Extensive experience in competitions, live events, and studio work.  \nGuitar: Trained to provide harmonic and rhythmic support.  \n\nShe offers practical experience in:  \n1. Vocal Performance: Live shows and competitions.  \n2. Studio Work: Recording and Production in professional environments.  \n3. Vocal Instruction: Teaching all levels, focusing on technique and building confidence.  \n\nCurrently, she teaches Western Vocal Music, using a gentle, technique-focused approach to connect individuals through music.",
+          "quote": "“Singing connects me to people beyond words, and through music, I believe we can truly connect with one another.”"
+        },
+        {
+          "id": "daksh-jain",
+          "name": "Daksh Jain",
+          "role_attribution": "Daksh Jain. Mentor  - AstroAscend",
+          "bio": "Daksh Jain is an accomplished debater and respected MUN leader. As Head of CoMUN 2025, Bangalore’s largest MUN, he delivered record participation and rigorous discourse. Known for clarity, diplomacy, and composed leadership, he consistently excels across conferences, shaping meaningful dialogue while upholding the highest standards of preparation, teamwork, and integrity.",
+          "details": "Daksh is one of Bengaluru Circuit’s most esteemed MUNners. His debating skills enable him to handle the MUN class effectively.\n\nThese are all the positions he has held over the last 2 years\n2024 CoMUN UNGA-SSIPC Moderator \n2024 IRSMUN AIPPM Co-Chairperson \n2025 CoMUN AIPPM Chairperson \n2025 Arogi MUN Secretariat Director General 2025 CoMUN OC Head of CoMUN & OC \n2025 SMUN AIPPM Co-Chairperson \n\nEach of these achievements highlights his exceptional talent in MUNs and debating. Currently, he is preparing for several national and international MUNs, both in the roles of chairing and participation.",
+          "quote": "“Where there is power, there is politics, and where there is knowledge, there is the power that shapes it.”"
+        },
+        {
+          "id": "pallavi-harish",
+          "name": "Pallavi Harish",
+          "role_attribution": "Pallavi Harish, Mentor - AstroAscend",
+          "bio": "A Creator, A Founder, A Scientist. An Intellectual. A student of Theology. These are just a few of the many things that he is and will ever be. Driven by curiosity and a deep desire to make an impact through innovation and creativity.",
+          "details": "The topics that the mentor teaches, along with the institutions where he received his training, are as follows:\n\n- **Astronomy**: Trained by Edumithra, IIT Madras (IITM), and Indian Institute of Science (IISC)\n- **Astrophysics**: Trained by Star Labs, IIT Madras (IITM), IISC, and BITS Pilani\n- **Quantum Mechanics**: Trained at IIT Madras (IITM), BITS Pilani, and IIT Delhi (IITD)\n\nAdditionally, he has worked on three major projects:\n1. **AgniSAT**: Focused on global warming control\n2. **V.A.Y.U.D.E.V.**: Aimed at reducing the need for air conditioning (AC)\n3. Mixed VidyuthKosh : Aimed to increase defence capabilities\n\nHe is currently working on projects on Semiconductors with IISC and Quantum mechanics with RVCE",
+          "quote": "“A mentor is more than just what we see - it is the one who holds your hand and makes sure you reach your destination no matter what”"
+        },
+        {
+          "id": "donna-christine-george",
+          "name": "Donna Christine George",
+          "role_attribution": "Donna Christine George. Mentor  - AstroAscend",
+          "bio": "Meet Donna George, an IPM student at TAPMI Manipal, who is keenly exploring opportunities in motorsports marketing. Her passion for the industry drives her to seek innovative ways to combine her studies with her interests, paving the way for a promising career in this dynamic field.",
+          "details": "The topics that the mentor teaches, along with the institutions where he received his training, are as follows:\n\n- **Astronomy**: Trained by Edumithra, IIT Madras (IITM), and Indian Institute of Science (IISC)\n- **Astrophysics**: Trained by Star Labs, IIT Madras (IITM), IISC, and BITS Pilani\n- **Quantum Mechanics**: Trained at IIT Madras (IITM), BITS Pilani, and IIT Delhi (IITD)\n\nAdditionally, he has worked on three major projects:\n1. **AgniSAT**: Focused on global warming control\n2. **V.A.Y.U.D.E.V.**: Aimed at reducing the need for air conditioning (AC)\n3. Mixed VidyuthKosh : Aimed to increase defence capabilities\n\nHe is currently working on projects on Semiconductors with IISC and Quantum mechanics with RVCE",
+          "quote": "“Imarting Knowledge is not the same as educating someone because knowledge is a deeper and real life understanding of the education being recived"
+        },
+        {
+          "id": "sanskriti-hooli",
+          "name": "Sanskriti Hooli",
+          "role_attribution": "Sanskriti Hooli, Mentor - AstroAscend",
+          "bio": "A Creator, A Founder, A Scientist. An Intellectual. A student of Theology. These are just a few of the many things that he is and will ever be. Driven by curiosity and a deep desire to make an impact through innovation and creativity.",
+          "details": "The topics that the mentor teaches, along with the institutions where he received his training, are as follows:\n\n- Astronomy: Trained by Edumithra, IIT Madras (IITM), and Indian Institute of Science (IISC)\n- Astrophysics: Trained by Star Labs, IIT Madras (IITM), IISC, and BITS Pilani\n- **Quantum Mechanics**: Trained at IIT Madras (IITM), BITS Pilani, and IIT Delhi (IITD)\n\nAdditionally, he has worked on three major projects:\n1. **AgniSAT**: Focused on global warming control\n2. **V.A.Y.U.D.E.V.**: Aimed at reducing the need for air conditioning (AC)\n3. Mixed VidyuthKosh : Aimed to increase defence capabilities\n\nHe is currently working on projects on Semiconductors with IISC and Quantum mechanics with RVCE",
+          "quote": "“A mentor is more than just what we see - it is the one who holds your hand and makes sure you reach your destination no matter what”"
+        }
+      ]
+    },
+    "coming-soon": {
+      "id": "coming-soon",
+      "label": "Coming Soon",
+      "brand_mark": "Astroascend",
+      "headline": "We're giving the site\na little makeover.",
+      "body": "Come back later for our big reveal.\nWe promise, it'll be worth it.",
+      "contact_lead": "In the meantime, reach us at:",
+      "contact_email": "astroascend17@gmail.com"
+    },
+    "join-us": {
+      "id": "join-us",
+      "label": "Join Us",
+      "header": {
+        "title": "Join us",
+        "subtitle": "To create a better tomorrow"
+      },
+      "options": [
+        {
+          "id": "mentor",
+          "title": "Join As a Mentor",
+          "body": "The Future of Earth is based on how many people we train today as the flag bearers of tomorrow and for this the most important part is the Mentor of the person. If you believe you have what takes to be a Mentor, then join us on this journey to make the world a better place.",
+          "cta": { "label": "Join now", "href": "https://forms.gle/CL5Z15BoH1o7g3DCA" }
+        },
+        {
+          "id": "donor",
+          "title": "Join As a Donor",
+          "body": "If you love our job and would like to work with us even more and actually understand what we do here at AstroAscend - donate to us (shush! there is something for you if you donate)",
+          "cta": { "label": "Donate Now", "href": "https://forms.gle/Yj9KSGkPTQuDZZbE9" },
+          "secondary_cta": { "label": "Join now", "href": "https://forms.gle/Yj9KSGkPTQuDZZbE9" }
+        },
+        {
+          "id": "ideator",
+          "title": "Join As an Ideator",
+          "body": "Do you have ideas on how you can make AstroAscend better, or just in general anything more appealing? Join us today to create a change in your own way",
+          "cta": { "label": "Skill up Today" }
+        },
+        {
+          "id": "challenger",
+          "title": "Join As a Challenger",
+          "body": "Have a skill? Want to take it to the next level? Join us as a Challenger to get chances at going into high level competitions - IITs, IIMs, International Competitions and many more....",
+          "cta": { "label": "Check it out" }
+        },
+        {
+          "id": "sustainer",
+          "title": "Join As a Sustainer",
+          "body": "The Earth is dying and it falls in our hands today to protect it. For very long we have been a part of the problem let us now be the part of our solution and tip the scales of the world to preserve Mother Earth and all its species today. Join and take the pledge today before it becomes too late.",
+          "cta": { "label": "Join now", "href": "https://forms.gle/iiqofiw42uM4BkUQ7" }
+        }
+      ],
+      "documents": {
+        "title": "View Our Public Documents",
+        "body": "Check out our Public available documents to get an understanding of our working"
+      }
+    }
+  },
+  "footer": {
+    "brand_mark": "AstroAscend",
+    "tagline": "The place of Knowledge - now redesigned to suit and upskill your needs now has a new name - AstroAscend. For Science, commerce, Culture or anything in between",
+    "columns": [
+      {
+        "title": "Quick Links",
+        "links": [
+          { "label": "Become a Mentor", "href": "https://forms.gle/CL5Z15BoH1o7g3DCA" },
+          { "label": "Become a Donor", "href": "https://forms.gle/Yj9KSGkPTQuDZZbE9" },
+          { "label": "Become a Sustainer", "href": "https://forms.gle/iiqofiw42uM4BkUQ7" }
+        ]
+      },
+      {
+        "title": "social",
+        "links": [
+          { "label": "Instagram", "href": "https://www.instagram.com/astro_ascend?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D", "icon": "instagram" },
+          { "label": "Email", "href": "mailto:astroascend17@gmail.com", "icon": "mail" },
+          { "label": "YouTube", "href": "https://www.youtube.com/@astro_ascend", "icon": "youtube" }
+        ]
+      }
+    ],
+    "canva_attribution": {
+      "subject_text": "This website has been created with Canva, but the content is User Content that is subject to our",
+      "terms_of_use_link": { "label": "Terms of Use", "href": "https://www.canva.com/policies/terms-of-use/" },
+      "breaches_text": ". If you see anything that breaches our",
+      "acceptable_use_link": { "label": "acceptable use policy", "href": "https://www.canva.com/policies/acceptable-use-policy/" },
+      "report_text": ", please report it to our content review team.",
+      "privacy_lead": "Personal data entered into this website may be collected and used according to the creator's own privacy practices. See our",
+      "privacy_link": { "label": "Privacy Policy", "href": "https://www.canva.com/policies/privacy-policy/" },
+      "privacy_tail": "to learn how Canva processes personal data.",
+      "designed_with": { "label": "Designed with", "href": "https://www.canva.com" }
+    }
+  },
+  "contact": {
+    "email": "astroascend17@gmail.com",
+    "instagram": "https://www.instagram.com/astro_ascend?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+    "youtube": "https://www.youtube.com/@astro_ascend",
+    "forms": {
+      "mentor": "https://forms.gle/CL5Z15BoH1o7g3DCA",
+      "donor": "https://forms.gle/Yj9KSGkPTQuDZZbE9",
+      "sustainer": "https://forms.gle/iiqofiw42uM4BkUQ7"
+    }
+  }
+}

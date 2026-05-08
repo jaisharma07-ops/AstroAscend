@@ -1,0 +1,164 @@
+[
+  {
+    "severity": "HIGH",
+    "area": "external",
+    "msg": "dead link 403",
+    "detail": "https://www.canva.com/policies/terms-of-use/"
+  },
+  {
+    "severity": "HIGH",
+    "area": "external",
+    "msg": "dead link 403",
+    "detail": "https://www.canva.com/policies/acceptable-use-policy/"
+  },
+  {
+    "severity": "HIGH",
+    "area": "external",
+    "msg": "dead link 403",
+    "detail": "https://www.canva.com"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1920px/",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1920px/masterclasses",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1920px/another-comet",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1920px/our-mentors",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1920px/coming-soon",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1920px/join-us",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1280px/",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1280px/masterclasses",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1280px/another-comet",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1280px/our-mentors",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1280px/coming-soon",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 1280px/join-us",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 768px/",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 768px/masterclasses",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 768px/another-comet",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 768px/our-mentors",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 768px/coming-soon",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 768px/join-us",
+    "msg": "4 tap targets < 22px",
+    "detail": "{\"w\":71.2750015258789,\"h\":15.199999809265137,\"text\":\"Terms of Use\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 360px/",
+    "msg": "2 tap targets < 22px",
+    "detail": "{\"w\":75.98750305175781,\"h\":15.199999809265137,\"text\":\"Privacy Policy\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 360px/masterclasses",
+    "msg": "2 tap targets < 22px",
+    "detail": "{\"w\":75.98750305175781,\"h\":15.199999809265137,\"text\":\"Privacy Policy\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 360px/another-comet",
+    "msg": "2 tap targets < 22px",
+    "detail": "{\"w\":75.98750305175781,\"h\":15.199999809265137,\"text\":\"Privacy Policy\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 360px/our-mentors",
+    "msg": "2 tap targets < 22px",
+    "detail": "{\"w\":75.98750305175781,\"h\":15.199999809265137,\"text\":\"Privacy Policy\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 360px/coming-soon",
+    "msg": "2 tap targets < 22px",
+    "detail": "{\"w\":75.98750305175781,\"h\":15.199999809265137,\"text\":\"Privacy Policy\",\"ariaLabel\":null}"
+  },
+  {
+    "severity": "MED",
+    "area": "layout 360px/join-us",
+    "msg": "2 tap targets < 22px",
+    "detail": "{\"w\":75.98750305175781,\"h\":15.199999809265137,\"text\":\"Privacy Policy\",\"ariaLabel\":null}"
+  }
+]

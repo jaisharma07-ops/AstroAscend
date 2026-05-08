@@ -1,0 +1,538 @@
+[
+  {
+    "y": 12,
+    "x": 804,
+    "fontSize": 15,
+    "fontWeight": "700",
+    "color": "rgb(48, 66, 84)",
+    "text": "Home"
+  },
+  {
+    "y": 12,
+    "x": 878,
+    "fontSize": 15,
+    "fontWeight": "400",
+    "color": "rgb(48, 66, 84)",
+    "text": "Masterclasses"
+  },
+  {
+    "y": 12,
+    "x": 1005,
+    "fontSize": 15,
+    "fontWeight": "400",
+    "color": "rgb(48, 66, 84)",
+    "text": "Another Comet"
+  },
+  {
+    "y": 12,
+    "x": 1138,
+    "fontSize": 15,
+    "fontWeight": "400",
+    "color": "rgb(48, 66, 84)",
+    "text": "Our Mentors"
+  },
+  {
+    "y": 12,
+    "x": 1253,
+    "fontSize": 15,
+    "fontWeight": "400",
+    "color": "rgb(48, 66, 84)",
+    "text": "Coming Soon"
+  },
+  {
+    "y": 12,
+    "x": 1375,
+    "fontSize": 15,
+    "fontWeight": "400",
+    "color": "rgb(48, 66, 84)",
+    "text": "Join Us"
+  },
+  {
+    "y": 264,
+    "x": 455,
+    "fontSize": 75,
+    "fontWeight": "700",
+    "color": "rgb(242, 242, 242)",
+    "text": "ASTROASCEND"
+  },
+  {
+    "y": 366,
+    "x": 564,
+    "fontSize": 35,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "The Knowledge Realm"
+  },
+  {
+    "y": 930,
+    "x": 606,
+    "fontSize": 28,
+    "fontWeight": "700",
+    "color": "rgb(255, 255, 255)",
+    "text": "Why ASTROASCEND?"
+  },
+  {
+    "y": 990,
+    "x": 606,
+    "fontSize": 15,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "Humans are at the top of everyone else, not only because of their immense understanding of nature, but also because of how we update and keep making new things to satisfy our needs. We need the commercialisation of such knowledge with children who are eager to learn and that is what AstroAscend does."
+  },
+  {
+    "y": 1230,
+    "x": 230,
+    "fontSize": 31,
+    "fontWeight": "700",
+    "color": "rgb(255, 255, 255)",
+    "text": "What is ASTROASCEND ?"
+  },
+  {
+    "y": 1290,
+    "x": 230,
+    "fontSize": 15,
+    "fontWeight": "700",
+    "color": "rgb(255, 255, 255)",
+    "text": "AstroAscend"
+  },
+  {
+    "y": 1290,
+    "x": 230,
+    "fontSize": 15,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "is an educational platform dedicated to providing comprehensive and innovative learning experiences. Our curriculum extends beyond traditional school subjects, delving into the underlying mechanics of each topic and exploring relevant extracurricular contexts."
+  },
+  {
+    "y": 1620,
+    "x": 454,
+    "fontSize": 31,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "Code of Conduct"
+  },
+  {
+    "y": 1704,
+    "x": 185,
+    "fontSize": 18,
+    "fontWeight": "700",
+    "color": "rgb(215, 60, 190)",
+    "text": "About our teachers"
+  },
+  {
+    "y": 1704,
+    "x": 518,
+    "fontSize": 18,
+    "fontWeight": "700",
+    "color": "rgb(215, 60, 190)",
+    "text": "How we work"
+  },
+  {
+    "y": 1704,
+    "x": 841,
+    "fontSize": 18,
+    "fontWeight": "700",
+    "color": "rgb(215, 60, 190)",
+    "text": "To the Environment"
+  },
+  {
+    "y": 1752,
+    "x": 272,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "AstroAscendisacompanywhich"
+  },
+  {
+    "y": 1752,
+    "x": 605,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "Beingrunbystudentsisahugetask"
+  },
+  {
+    "y": 1752,
+    "x": 928,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "AstroAscend believesin an"
+  },
+  {
+    "y": 1776,
+    "x": 257,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "believesinpeerteaching.Aperson"
+  },
+  {
+    "y": 1776,
+    "x": 591,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "both forthe learning and learned,"
+  },
+  {
+    "y": 1776,
+    "x": 914,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "Environm entfirstpolicy.Everyperson"
+  },
+  {
+    "y": 1800,
+    "x": 272,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "tends to listen betterand learn better"
+  },
+  {
+    "y": 1800,
+    "x": 605,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "AstroAscendisacompanywhich"
+  },
+  {
+    "y": 1800,
+    "x": 928,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "w ho joinsusisissued a pledge to"
+  },
+  {
+    "y": 1824,
+    "x": 257,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "ifhe is able to connectw ith his"
+  },
+  {
+    "y": 1824,
+    "x": 591,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "perform sto give knowledge to every serve and protectM otherEarth from"
+  },
+  {
+    "y": 1842,
+    "x": 272,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "teacherandwithchangingtimes"
+  },
+  {
+    "y": 1842,
+    "x": 605,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "personhoweveram asterofasubject allthreats.Thenatureofthehuman"
+  },
+  {
+    "y": 1866,
+    "x": 257,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "whereevery5yearsnew ideology"
+  },
+  {
+    "y": 1866,
+    "x": 591,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "the person is."
+  },
+  {
+    "y": 1866,
+    "x": 914,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "raceisnottodestroybuttosaveand"
+  },
+  {
+    "y": 1890,
+    "x": 272,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "comesup,onlystudentscan"
+  },
+  {
+    "y": 1890,
+    "x": 928,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "protect,thatisw hatw e stand forand"
+  },
+  {
+    "y": 1914,
+    "x": 257,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "connectwithothers."
+  },
+  {
+    "y": 1914,
+    "x": 914,
+    "fontSize": 19,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "standbyit"
+  },
+  {
+    "y": 2064,
+    "x": 475,
+    "fontSize": 28,
+    "fontWeight": "700",
+    "color": "rgb(242, 242, 242)",
+    "text": "Vision"
+  },
+  {
+    "y": 2064,
+    "x": 859,
+    "fontSize": 28,
+    "fontWeight": "700",
+    "color": "rgb(242, 242, 242)",
+    "text": "Mission"
+  },
+  {
+    "y": 2106,
+    "x": 370,
+    "fontSize": 21,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "Tomakeaagroupofheartawakenedleaderswhoare Toconnectwithstudentsoneononeandtoteach"
+  },
+  {
+    "y": 2130,
+    "x": 357,
+    "fontSize": 21,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "notonlygoodatstudyingbutare also awakened to the eachpersonattheirownpace,tocreatetrailblazersfor"
+  },
+  {
+    "y": 2148,
+    "x": 370,
+    "fontSize": 21,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "realw orld through consciousnessand creativity."
+  },
+  {
+    "y": 2148,
+    "x": 765,
+    "fontSize": 21,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "thegreatergood,Forabettertom orrow"
+  },
+  {
+    "y": 2526,
+    "x": 743,
+    "fontSize": 35,
+    "fontWeight": "700",
+    "color": "rgb(242, 242, 242)",
+    "text": "AstroAscend - For the greater good"
+  },
+  {
+    "y": 2568,
+    "x": 824,
+    "fontSize": 35,
+    "fontWeight": "700",
+    "color": "rgb(242, 242, 242)",
+    "text": "For the future we envison"
+  },
+  {
+    "y": 2868,
+    "x": 154,
+    "fontSize": 51,
+    "fontWeight": "400",
+    "color": "rgb(230, 171, 0)",
+    "text": "AstroAscend"
+  },
+  {
+    "y": 2874,
+    "x": 532,
+    "fontSize": 23,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "Quick Links"
+  },
+  {
+    "y": 2898,
+    "x": 38,
+    "fontSize": 24,
+    "fontWeight": "700",
+    "color": "rgb(0, 0, 0)",
+    "text": "Terms & Support"
+  },
+  {
+    "y": 2928,
+    "x": 986,
+    "fontSize": 24,
+    "fontWeight": "400",
+    "color": "rgb(6, 0, 46)",
+    "text": "social"
+  },
+  {
+    "y": 2934,
+    "x": 532,
+    "fontSize": 17,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "Become a Mentor"
+  },
+  {
+    "y": 2940,
+    "x": 154,
+    "fontSize": 13,
+    "fontWeight": "400",
+    "color": "rgb(255, 255, 255)",
+    "text": "The place of Knowledge - now redesigned to suit and upskill your needs now has a new name - AstroAscend. For Science, commerce, Culture or anything in between"
+  },
+  {
+    "y": 2946,
+    "x": 38,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgba(14, 19, 24, 0.7)",
+    "text": "This website has been created with Canva, but the content is User Content that is subject to our"
+  },
+  {
+    "y": 2946,
+    "x": 38,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgba(14, 19, 24, 0.7)",
+    "text": ". If you see anything that breaches our"
+  },
+  {
+    "y": 2946,
+    "x": 38,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgba(14, 19, 24, 0.7)",
+    "text": ", please report it to our content review team."
+  },
+  {
+    "y": 2958,
+    "x": 532,
+    "fontSize": 17,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "Become a Donor"
+  },
+  {
+    "y": 2964,
+    "x": 38,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgba(14, 19, 24, 0.7)",
+    "text": "Personal data entered into this website may be collected and used according to the creator's own privacy practices. See our"
+  },
+  {
+    "y": 2964,
+    "x": 38,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgba(14, 19, 24, 0.7)",
+    "text": "to learn how Canva processes personal data."
+  },
+  {
+    "y": 2982,
+    "x": 38,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgb(0, 0, 238)",
+    "text": "Terms of Use"
+  },
+  {
+    "y": 2982,
+    "x": 532,
+    "fontSize": 17,
+    "fontWeight": "400",
+    "color": "rgb(242, 242, 242)",
+    "text": "Become a Sustainer"
+  },
+  {
+    "y": 3000,
+    "x": 63,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgb(0, 0, 238)",
+    "text": "acceptable use policy"
+  },
+  {
+    "y": 3000,
+    "x": 228,
+    "fontSize": 14,
+    "fontWeight": "400",
+    "color": "rgb(0, 0, 238)",
+    "text": "Privacy Policy"
+  },
+  {
+    "y": 3078,
+    "x": 188,
+    "fontSize": 14,
+    "fontWeight": "600",
+    "color": "rgb(13, 18, 22)",
+    "text": "Close"
+  },
+  {
+    "y": 3078,
+    "x": 268,
+    "fontSize": 14,
+    "fontWeight": "600",
+    "color": "rgb(13, 18, 22)",
+    "text": "Close"
+  },
+  {
+    "y": 3078,
+    "x": 271,
+    "fontSize": 14,
+    "fontWeight": "600",
+    "color": "rgb(14, 19, 24)",
+    "text": "Report"
+  },
+  {
+    "y": 3126,
+    "x": 6,
+    "fontSize": 12,
+    "fontWeight": "600",
+    "color": "rgb(255, 255, 255)",
+    "text": "Terms & Support"
+  },
+  {
+    "y": 3126,
+    "x": 122,
+    "fontSize": 12,
+    "fontWeight": "600",
+    "color": "rgb(255, 255, 255)",
+    "text": "Privacy Policy"
+  },
+  {
+    "y": 3126,
+    "x": 1295,
+    "fontSize": 12,
+    "fontWeight": "600",
+    "color": "rgb(255, 255, 255)",
+    "text": "Designed with"
+  }
+]

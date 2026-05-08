@@ -1,0 +1,8 @@
+{
+  "name": "canva-fetch",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
