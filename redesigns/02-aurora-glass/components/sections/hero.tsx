@@ -4,9 +4,9 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { ease } from "@/lib/motion";
+import { SplitText } from "@/components/split-text";
 
 export function Hero({ brandMark, tagline }: { brandMark: string; tagline: string }) {
-  // Stagger letters of brand mark
   const chars = brandMark.split("");
 
   return (
@@ -33,17 +33,10 @@ export function Hero({ brandMark, tagline }: { brandMark: string; tagline: strin
                 <motion.span
                   key={i}
                   aria-hidden
-                  initial={{ opacity: 0, y: 22 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.7, ease, delay: 0.05 + i * 0.025 }}
-                  className="inline-block"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(180deg, var(--fg) 0%, color-mix(in oklab, var(--fg) 55%, transparent) 100%)",
-                    backgroundClip: "text",
-                    WebkitBackgroundClip: "text",
-                    color: "transparent",
-                  }}
+                  initial={{ opacity: 0, y: 28, filter: "blur(8px)" }}
+                  animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                  transition={{ duration: 0.75, ease, delay: 0.05 + i * 0.03 }}
+                  className="inline-block text-shimmer"
                 >
                   {c}
                 </motion.span>
@@ -51,19 +44,19 @@ export function Hero({ brandMark, tagline }: { brandMark: string; tagline: strin
             </span>
           </h1>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease, delay: 0.32 }}
+            transition={{ duration: 0.7, ease, delay: 0.55 }}
             className="display-3 max-w-2xl text-pretty font-medium text-muted"
           >
-            {tagline}
-          </motion.p>
+            <SplitText text={tagline} unit="word" delay={0.55} stagger={0.05} duration={0.7} />
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, ease, delay: 0.44 }}
+            transition={{ duration: 0.7, ease, delay: 0.85 }}
             className="mt-4 flex flex-wrap items-center gap-3"
           >
             <Link
@@ -91,7 +84,7 @@ export function Hero({ brandMark, tagline }: { brandMark: string; tagline: strin
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.4, ease, delay: 0.5 }}
-          className="pointer-events-none absolute right-[-16%] top-1/2 hidden h-[120%] w-[60%] -translate-y-1/2 lg:block"
+          className="pointer-events-none absolute right-[-16%] top-1/2 hidden h-[120%] w-[60%] -translate-y-1/2 lg:block float-soft"
         >
           <div className="absolute inset-0 rounded-full opacity-60 blur-3xl"
             style={{

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, FileText } from "lucide-react";
 import type { MasterclassCourse } from "@/lib/content";
 import { ease } from "@/lib/motion";
+import { CourseCover } from "@/components/course-cover";
 
 const COURSE_GLOWS = [
   "var(--accent-violet)",
@@ -31,6 +32,8 @@ export function MasterclassCard({ course, index }: { course: MasterclassCourse; 
       />
 
       <div className="relative flex flex-1 flex-col">
+        <CourseCover id={course.id} index={index} />
+
         <div className="flex items-start justify-between gap-4">
           <span
             aria-hidden
@@ -62,17 +65,33 @@ export function MasterclassCard({ course, index }: { course: MasterclassCourse; 
         <div className="mt-7 flex flex-wrap items-center gap-2 pt-2">
           {course.ctas.map((cta, i) =>
             cta.kind === "primary" ? (
-              <button
-                key={i}
-                type="button"
-                className="focus-ring group/btn inline-flex items-center gap-1.5 rounded-full bg-fg px-4 py-2 text-[13px] font-medium text-bg transition-opacity hover:opacity-90"
-              >
-                {cta.label}
-                <ArrowUpRight
-                  className="h-3.5 w-3.5 transition-transform duration-300 ease-out-expo group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
-                  strokeWidth={1.8}
-                />
-              </button>
+              cta.href ? (
+                <a
+                  key={i}
+                  href={cta.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus-ring group/btn inline-flex items-center gap-1.5 rounded-full bg-fg px-4 py-2 text-[13px] font-medium text-bg transition-opacity hover:opacity-90"
+                >
+                  {cta.label}
+                  <ArrowUpRight
+                    className="h-3.5 w-3.5 transition-transform duration-300 ease-out-expo group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
+                    strokeWidth={1.8}
+                  />
+                </a>
+              ) : (
+                <button
+                  key={i}
+                  type="button"
+                  className="focus-ring group/btn inline-flex items-center gap-1.5 rounded-full bg-fg px-4 py-2 text-[13px] font-medium text-bg transition-opacity hover:opacity-90"
+                >
+                  {cta.label}
+                  <ArrowUpRight
+                    className="h-3.5 w-3.5 transition-transform duration-300 ease-out-expo group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
+                    strokeWidth={1.8}
+                  />
+                </button>
+              )
             ) : (
               <button
                 key={i}

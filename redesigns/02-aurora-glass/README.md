@@ -31,7 +31,7 @@ npm run typecheck    # tsc --noEmit
 
 ## Source content
 
-Every visible string comes from [`content/source-content.json`](./content/source-content.json), which was extracted verbatim from the live Canva site (headless Chromium + JSON-blob extraction from the rendered HTML — not OCR or DOM reconstruction). 306 string fields are locked. Typos in the source (`envison`, `truely`, `informtion`, `Imarting`, `recived`, `Pyschology`, double-spaces, etc.) are preserved on purpose.
+Every visible string comes from [`content/source-content.json`](./content/source-content.json), which was originally extracted from the live Canva site (headless Chromium + JSON-blob extraction from the rendered HTML — not OCR or DOM reconstruction). Source typos (`envison`, `truely`, `informtion`, `Imarting`, `recived`, `Pyschology`, etc.) and grammar issues have since been corrected in an editorial pass (May 2026).
 
 `lib/content.ts` re-exports the JSON behind a typed shape so components import strings, never hardcode them.
 

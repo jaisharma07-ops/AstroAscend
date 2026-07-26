@@ -4,6 +4,7 @@ export type LinkRef = { label: string; href: string; icon?: string };
 
 export type CTA = { label: string; href?: string; kind?: "primary" | "secondary" };
 
+
 export type HomeSection =
   | { id: string; kind: "hero"; brand_mark: string; tagline: string }
   | { id: string; kind: "text-block"; heading: string; body_lead?: string; body: string }

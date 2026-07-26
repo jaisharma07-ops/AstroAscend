@@ -7,6 +7,7 @@ import { content } from "@/lib/content";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
+import { LogoMark } from "@/components/logo";
 
 export function Nav() {
   const pathname = usePathname();
@@ -47,14 +48,7 @@ export function Nav() {
             href="/"
             className="focus-ring -mx-2 inline-flex items-center gap-2 rounded-full px-2 py-1 text-sm font-semibold tracking-[-0.01em]"
           >
-            <span
-              aria-hidden
-              className="inline-block h-2.5 w-2.5 rounded-full"
-              style={{
-                background:
-                  "conic-gradient(from 220deg, var(--accent-violet), var(--accent-magenta), var(--accent-teal), var(--accent-violet))",
-              }}
-            />
+            <LogoMark className="h-7 w-7" animated />
             <span>AstroAscend</span>
           </Link>
 

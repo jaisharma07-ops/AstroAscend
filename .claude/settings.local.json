@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('/d/astroascent/redesigns/02-aurora-glass/content/source-content.json','utf8'\\)\\); console.log\\('JSON valid'\\)\")",
+      "Bash(node -e \"const L=require\\('d:/astroascent/redesigns/02-aurora-glass/node_modules/lucide-react'\\); ['Telescope','Brain','Atom','Linkedin','Sparkles','Cpu','Dna','BrainCircuit','Crown','HelpCircle','Globe','BookOpen','Mic2','Music','FlaskConical','Microscope','Orbit','User','UserRound'].forEach\\(n => console.log\\(n, !!L[n]\\)\\)\")"
+    ]
+  }
+}

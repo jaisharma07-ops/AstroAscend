@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { SplitText } from "@/components/split-text";
 
 export function HomeClosing({ lines }: { lines: string[] }) {
   return (
@@ -40,7 +41,15 @@ export function HomeClosing({ lines }: { lines: string[] }) {
                     color: "transparent",
                   }}
                 >
-                  {line}
+                  <SplitText
+                    text={line}
+                    unit="word"
+                    whileInView
+                    delay={i * 0.18}
+                    stagger={0.07}
+                    duration={0.75}
+                    yOffset={26}
+                  />
                 </h2>
               ))}
             </div>

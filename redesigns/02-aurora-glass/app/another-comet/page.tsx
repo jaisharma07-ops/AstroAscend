@@ -5,6 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { content } from "@/lib/content";
 import { PageHeader } from "@/components/page-header";
 import { ease, viewportOnce } from "@/lib/motion";
+import { CourseCover } from "@/components/course-cover";
 
 const TAG_ACCENT: Record<string, string> = {
   "Free class": "var(--accent-teal)",
@@ -47,16 +48,31 @@ export default function AnotherCometPage() {
                 </p>
               </div>
               <div className="flex items-end lg:col-span-5 lg:justify-end">
-                <button
-                  type="button"
-                  className="focus-ring group inline-flex items-center gap-2 rounded-full bg-fg px-5 py-3 text-sm font-medium text-bg transition-opacity hover:opacity-90"
-                >
-                  {a.intro.cta.label}
-                  <ArrowUpRight
-                    className="h-4 w-4 transition-transform duration-300 ease-out-expo group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                    strokeWidth={1.8}
-                  />
-                </button>
+                {a.intro.cta.href ? (
+                  <a
+                    href={a.intro.cta.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="focus-ring group inline-flex items-center gap-2 rounded-full bg-fg px-5 py-3 text-sm font-medium text-bg transition-opacity hover:opacity-90"
+                  >
+                    {a.intro.cta.label}
+                    <ArrowUpRight
+                      className="h-4 w-4 transition-transform duration-300 ease-out-expo group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                      strokeWidth={1.8}
+                    />
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    className="focus-ring group inline-flex items-center gap-2 rounded-full bg-fg px-5 py-3 text-sm font-medium text-bg transition-opacity hover:opacity-90"
+                  >
+                    {a.intro.cta.label}
+                    <ArrowUpRight
+                      className="h-4 w-4 transition-transform duration-300 ease-out-expo group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                      strokeWidth={1.8}
+                    />
+                  </button>
+                )}
               </div>
             </div>
           </motion.div>
@@ -90,6 +106,7 @@ export default function AnotherCometPage() {
                     style={{ background: `radial-gradient(circle, ${accent}, transparent 60%)` }}
                   />
                   <div className="relative flex flex-1 flex-col">
+                    <CourseCover id={c.id} index={i} />
                     <div className="flex items-start justify-between gap-3">
                       <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-subtle">
                         {String(i + 1).padStart(2, "0")} / {c.tag ?? "Class"}
@@ -120,16 +137,31 @@ export default function AnotherCometPage() {
 
                     {c.cta && !c.badge && (
                       <div className="mt-7 pt-2">
-                        <button
-                          type="button"
-                          className="focus-ring group/btn inline-flex items-center gap-1.5 rounded-full bg-fg px-4 py-2 text-[13px] font-medium text-bg transition-opacity hover:opacity-90"
-                        >
-                          {c.cta.label}
-                          <ArrowUpRight
-                            className="h-3.5 w-3.5 transition-transform duration-300 ease-out-expo group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
-                            strokeWidth={1.8}
-                          />
-                        </button>
+                        {c.cta.href ? (
+                          <a
+                            href={c.cta.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="focus-ring group/btn inline-flex items-center gap-1.5 rounded-full bg-fg px-4 py-2 text-[13px] font-medium text-bg transition-opacity hover:opacity-90"
+                          >
+                            {c.cta.label}
+                            <ArrowUpRight
+                              className="h-3.5 w-3.5 transition-transform duration-300 ease-out-expo group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
+                              strokeWidth={1.8}
+                            />
+                          </a>
+                        ) : (
+                          <button
+                            type="button"
+                            className="focus-ring group/btn inline-flex items-center gap-1.5 rounded-full bg-fg px-4 py-2 text-[13px] font-medium text-bg transition-opacity hover:opacity-90"
+                          >
+                            {c.cta.label}
+                            <ArrowUpRight
+                              className="h-3.5 w-3.5 transition-transform duration-300 ease-out-expo group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5"
+                              strokeWidth={1.8}
+                            />
+                          </button>
+                        )}
                       </div>
                     )}
                   </div>

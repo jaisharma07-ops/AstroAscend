@@ -6,6 +6,7 @@ import { ChevronDown, Quote } from "lucide-react";
 import type { Mentor } from "@/lib/content";
 import { cn } from "@/lib/utils";
 import { ease } from "@/lib/motion";
+import { AvatarPlaceholder } from "@/components/avatar-placeholder";
 
 const ACCENTS = [
   "var(--accent-violet)",
@@ -20,13 +21,6 @@ const ACCENTS = [
 export function MentorCard({ mentor, index }: { mentor: Mentor; index: number }) {
   const [open, setOpen] = useState(false);
   const accent = ACCENTS[index % ACCENTS.length];
-  const initials = mentor.name
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((s) => s[0])
-    .slice(0, 2)
-    .join("")
-    .toUpperCase();
 
   return (
     <motion.article
@@ -41,15 +35,7 @@ export function MentorCard({ mentor, index }: { mentor: Mentor; index: number })
       />
       <div className="relative p-7 sm:p-8">
         <div className="flex items-start gap-5">
-          <div
-            aria-hidden
-            className="relative flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-glass-border text-lg font-semibold tracking-[-0.02em]"
-            style={{
-              background: `linear-gradient(140deg, color-mix(in oklab, ${accent} 24%, transparent), transparent 70%)`,
-            }}
-          >
-            {initials}
-          </div>
+          <AvatarPlaceholder name={mentor.name} index={index} size="lg" />
           <div className="flex-1 min-w-0">
             <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-subtle">
               {String(index + 1).padStart(2, "0")} · Mentor

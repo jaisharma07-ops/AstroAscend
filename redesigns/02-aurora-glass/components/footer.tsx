@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Instagram, Mail, Youtube, type LucideIcon } from "lucide-react";
 import { content } from "@/lib/content";
+import { LogoMark } from "@/components/logo";
 
 const ICONS: Record<string, LucideIcon> = {
   instagram: Instagram,
@@ -16,7 +17,8 @@ export function Footer() {
       <div className="container py-16 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <Link href="/" className="focus-ring inline-block rounded-md">
+            <Link href="/" className="focus-ring inline-flex items-center gap-3 rounded-md">
+              <LogoMark className="h-10 w-10" />
               <span className="display-3 inline-block bg-clip-text font-semibold tracking-[-0.04em]">
                 {f.brand_mark}
               </span>

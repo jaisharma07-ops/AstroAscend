@@ -163,6 +163,39 @@
     box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px color-mix(in oklab, var(--accent-violet) 70%, transparent);
     border-radius: inherit;
   }
+
+  .text-shimmer {
+    background-image: linear-gradient(
+      100deg,
+      var(--fg) 0%,
+      var(--fg) 35%,
+      color-mix(in oklab, var(--accent-violet) 85%, var(--fg)) 50%,
+      var(--fg) 65%,
+      var(--fg) 100%
+    );
+    background-size: 220% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: text-shimmer 7s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+  }
+
+  @keyframes text-shimmer {
+    0% {
+      background-position: 220% 0;
+    }
+    100% {
+      background-position: -120% 0;
+    }
+  }
+
+  .float-soft {
+    animation: float-soft 9s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+  }
+  @keyframes float-soft {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
 }
 
 /* Scrollbar */

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ease } from "@/lib/motion";
+import { SplitText } from "@/components/split-text";
 
 export function PageHeader({
   eyebrow,
@@ -16,7 +17,7 @@ export function PageHeader({
     <section className="relative pb-12 pt-36 sm:pt-40 lg:pb-20 lg:pt-48">
       <div className="container">
         <motion.div
-          initial={{ opacity: 0, y: 18 }}
+          initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease }}
           className="max-w-4xl"
@@ -31,9 +32,18 @@ export function PageHeader({
               {eyebrow}
             </span>
           ) : null}
-          <h1 className="display-1 text-balance">{title}</h1>
+          <h1 className="display-1 text-balance">
+            <SplitText text={title} unit="word" delay={0.08} stagger={0.06} duration={0.75} />
+          </h1>
           {subtitle ? (
-            <p className="mt-6 max-w-2xl text-pretty text-lg text-muted sm:text-xl">{subtitle}</p>
+            <motion.p
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease, delay: 0.45 }}
+              className="mt-6 max-w-2xl text-pretty text-lg text-muted sm:text-xl"
+            >
+              {subtitle}
+            </motion.p>
           ) : null}
         </motion.div>
       </div>
