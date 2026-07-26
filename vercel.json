@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd redesigns/02-aurora-glass && npm install && npm run build",
-  "outputDirectory": "redesigns/02-aurora-glass/.next",
-  "installCommand": "echo 'dependencies installed in buildCommand'",
-  "framework": "nextjs"
-}
