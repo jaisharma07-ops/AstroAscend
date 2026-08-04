@@ -62,6 +62,7 @@ Defaults are in `lib/motion.ts`: ease curve `cubic-bezier(0.22, 1, 0.36, 1)` ("e
 
 ## Out of scope (in this build)
 
+
 - Stitch / Figma MCP integration to refine specific section visuals
 - Per-mentor avatar imagery (stand-in initials are used; the source had no images attached to mentors)
 - Real `/forms.gle` integration for the Coming Soon page contact (the email link is `mailto:` per source)
