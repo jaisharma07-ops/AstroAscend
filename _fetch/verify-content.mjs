@@ -1,9 +1,9 @@
 import puppeteer from "puppeteer";
 import fs from "node:fs";
 
-const PORT = 3742;
+const PORT = 4042;
 const BASE = `http://localhost:${PORT}`;
-const c = JSON.parse(fs.readFileSync("d:\\Dev_website\\redesigns\\02-aurora-glass\\content\\source-content.json", "utf8"));
+const c = JSON.parse(fs.readFileSync(new URL("../content/source-content.json", import.meta.url), "utf8"));
 
 // Map every "expected" string to the route(s) it should appear in.
 const expectations = [];

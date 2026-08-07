@@ -2,9 +2,11 @@ import puppeteer from "puppeteer";
 import fs from "node:fs";
 import path from "node:path";
 
+import { fileURLToPath } from "node:url";
+
 const PORT = 4042;
 const BASE = `http://localhost:${PORT}`;
-const OUT = "d:\\Dev_website\\_fetch\\shots";
+const OUT = fileURLToPath(new URL("shots", import.meta.url));
 fs.mkdirSync(OUT, { recursive: true });
 
 const ROUTES = [

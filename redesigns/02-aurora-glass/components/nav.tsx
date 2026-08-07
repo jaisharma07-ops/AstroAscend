@@ -49,7 +49,7 @@ export function Nav() {
             className="focus-ring -mx-2 inline-flex items-center gap-2 rounded-full px-2 py-1 text-sm font-semibold tracking-[-0.01em]"
           >
             <LogoMark className="h-7 w-7" animated />
-            <span>AstroAscend</span>
+            <span>astroascend</span>
           </Link>
 
           <ul className="hidden items-center gap-1 md:flex">

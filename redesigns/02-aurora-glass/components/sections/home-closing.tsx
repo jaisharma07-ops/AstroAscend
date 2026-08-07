@@ -30,16 +30,7 @@ export function HomeClosing({ lines }: { lines: string[] }) {
               {lines.map((line, i) => (
                 <h2
                   key={i}
-                  className="display-2 text-balance"
-                  style={{
-                    backgroundImage:
-                      i === 0
-                        ? "linear-gradient(120deg, var(--fg), color-mix(in oklab, var(--fg) 65%, transparent))"
-                        : "linear-gradient(120deg, var(--accent-violet), var(--accent-magenta), var(--accent-teal))",
-                    backgroundClip: "text",
-                    WebkitBackgroundClip: "text",
-                    color: "transparent",
-                  }}
+                  className="display-2 text-balance text-black dark:text-white"
                 >
                   <SplitText
                     text={line}

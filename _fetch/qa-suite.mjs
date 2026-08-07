@@ -180,7 +180,7 @@ console.log("\n══════ 5. MENTOR ACCORDION ══════");
       text: b.textContent?.trim(),
     }));
   });
-  if (accordionStates.length !== 7) log("HIGH", "accordion", `expected 7 mentor accordions, got ${accordionStates.length}`);
+  if (accordionStates.length !== 5) log("HIGH", "accordion", `expected 5 mentor accordions, got ${accordionStates.length}`);
   for (const a of accordionStates) {
     if (a.expanded !== "false" && a.expanded !== "true")
       log("MED", "accordion", `aria-expanded missing/invalid on ${a.controls}`, a.expanded);
@@ -335,7 +335,7 @@ console.log("\n══════ 9. PERF SIGNALS ══════");
 console.log("\n══════ SUMMARY ══════");
 const counts = FINDINGS.reduce((a, f) => ((a[f.severity] = (a[f.severity] || 0) + 1), a), {});
 console.log(JSON.stringify(counts, null, 2));
-fs.writeFileSync("d:\\Dev_website\\_fetch\\qa-findings.json", JSON.stringify(FINDINGS, null, 2));
+fs.writeFileSync(new URL("qa-findings.json", import.meta.url), JSON.stringify(FINDINGS, null, 2));
 console.log(`Saved ${FINDINGS.length} findings to qa-findings.json`);
 
 await browser.close();

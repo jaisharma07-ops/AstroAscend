@@ -23,22 +23,26 @@
   }
 
   .dark {
-    --bg: #070b14;
-    --surface: #0c111e;
-    --fg: #f5f7fb;
-    --muted: #c5cad8;
-    --subtle: #7c8298;
-    --border: rgba(255, 255, 255, 0.08);
+    --bg: #080808;
+    --surface: #111111;
+    --fg: #ffffff;
+    --muted: #d4cfc9;
+    --subtle: #7a7470;
+    --border: rgba(232, 82, 12, 0.18);
 
-    --accent-teal: #4fd1c5;
-    --accent-violet: #a78bfa;
-    --accent-magenta: #f472b6;
+    --accent-orange: #E8520C;
+    --accent-orange-bright: #FF7A2F;
+    --accent-orange-dim: #9c3608;
+    /* Map shared accent vars to orange palette */
+    --accent-teal: #E8520C;
+    --accent-violet: #FF7A2F;
+    --accent-magenta: #c44a0a;
 
-    --glass: rgba(255, 255, 255, 0.04);
-    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass: rgba(232, 82, 12, 0.07);
+    --glass-border: rgba(232, 82, 12, 0.18);
 
-    --aurora-opacity: 0.22;
-    --noise-opacity: 0.06;
+    --aurora-opacity: 1;
+    --noise-opacity: 0.05;
   }
 
   html {
@@ -56,7 +60,7 @@
   }
 
   ::selection {
-    background-color: color-mix(in oklab, var(--accent-violet) 35%, transparent);
+    background-color: color-mix(in oklab, var(--accent-teal) 40%, transparent);
     color: var(--fg);
   }
 

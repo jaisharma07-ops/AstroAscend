@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer";
 import fs from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 
 const URL = "https://astroascend.my.canva.site/";
 
@@ -39,7 +40,7 @@ try {
   await new Promise((r) => setTimeout(r, 1500));
 
   const html = await page.content();
-  await fs.writeFile("d:\\Dev_website\\_fetch\\rendered.html", html);
+  await fs.writeFile(fileURLToPath(new URL("rendered.html", import.meta.url)), html);
 
   const data = await page.evaluate(() => {
     function visibleText(node) {
@@ -104,14 +105,14 @@ try {
   });
 
   await fs.writeFile(
-    "d:\\Dev_website\\_fetch\\extracted.json",
+    fileURLToPath(new URL("extracted.json", import.meta.url)),
     JSON.stringify({ ...data, networkRequests: requests.filter((r) =>
       !r.url.startsWith("data:") &&
       !/\.(woff2?|ttf|otf|png|jpg|jpeg|webp|gif|svg|ico|css|js|mp4|webm)(\?|$)/i.test(r.url)
     ) }, null, 2)
   );
 
-  await page.screenshot({ path: "d:\\Dev_website\\_fetch\\full.png", fullPage: true });
+  await page.screenshot({ path: fileURLToPath(new URL("full.png", import.meta.url)), fullPage: true });
 
   console.log("DONE");
   console.log("Title:", data.meta.title);
