@@ -98,12 +98,12 @@
           "title": "Astronomy",
           "description": "Gain hands-on experience in astronomy. Learn from experts, explore the night sky, and contribute to research projects. Perfect for aspiring astronomers and science enthusiasts. Start a conversation on the cosmos and learn the theory behind it.",
           "details": [
-            "Level 1 - ₹500  ₹399 (Discount until June 2026)",
+            "Level 1",
             "15 day Course",
             "158 Students Mentored till date"
           ],
           "ctas": [
-            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Brochure", "kind": "secondary", "href": "https://drive.google.com/drive/folders/124imYF2BF0MBzhFEdSl1oj2rFEbhCU74?usp=drive_link" },
             { "label": "Click Here", "kind": "primary", "href": "https://forms.gle/h1tZiYjKuNV4mMDRA" }
           ]
         },
@@ -112,12 +112,11 @@
           "title": "Foundations of Psychology",
           "description": "Ever caught yourself wondering why you’re like this — why you feel the way you feel? Foundations of Psychology breaks down the basics of how the mind works. From perception to personality, it covers the essentials of psychology. If understanding people fascinates you, this is where it begins.",
           "details": [
-            "Cost - ₹999 ₹599",
             "16 Day Course",
             "123 Students mentored till date"
           ],
           "ctas": [
-            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Brochure", "kind": "secondary", "href": "https://drive.google.com/drive/folders/16cY0AOU5ps-T9HlIoRl18U5vryQP8exQ?usp=drive_link" },
             { "label": "Click Here", "kind": "primary", "href": "https://forms.gle/1qESCZcrGHQB4YsS8" }
           ]
         },
@@ -126,12 +125,12 @@
           "title": "Quantum Mechanics and Quantum Computing",
           "description": "Explore the fascinating world of quantum mechanics. Understand the ideas Max Planck came up with and the principles Einstein used to win a Nobel Prize — or simply understand why Ant-Man was “trapped” in the Quantum Realm.",
           "details": [
-            "Level 1 - ₹899  ₹599 (Discount until June 2025)",
+            "Level 1",
             "15 Day Course",
             "121 Students Mentored till date"
           ],
           "ctas": [
-            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Brochure", "kind": "secondary", "href": "https://drive.google.com/drive/folders/1vZWBKkvOPaJoJRio3ZZ7R-7xZDGSe2ve?usp=drive_link" },
             { "label": "Click Here", "kind": "primary", "href": "https://forms.gle/Mp3cLWmAs5yb31s39" }
           ]
         },
@@ -139,11 +138,8 @@
           "id": "linkedin",
           "title": "LinkedIn 101",
           "description": "Learn how to present yourself to the world through LinkedIn — the world’s largest professional information network — and how to build the connections that lead you to the perfect job and future.",
-          "details": [
-            "Cost - ₹500"
-          ],
           "ctas": [
-            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Brochure", "kind": "secondary", "href": "https://drive.google.com/drive/folders/1BFzb6cKa3jFxQ38T5IVaT9CDp1y7nN4W?usp=drive_link" },
             { "label": "Click Here", "kind": "primary", "href": "https://forms.gle/51pBnJDWtJ6cNaVp7" }
           ]
         },
@@ -152,12 +148,12 @@
           "title": "AstroPhysics",
           "description": "Dive deep into the mysteries of the universe. Understand the cosmos and start your journey toward groundbreaking research. Grasp the physics and science behind the universe. If the mysteries of the cosmos keep you awake at night, you are at the right spot.",
           "details": [
-            "Level 1 - ₹1199  ₹799 (Discount until June 2025)",
+            "Level 1",
             "15 Day Course",
             "152 Students mentored till date"
           ],
           "ctas": [
-            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Brochure", "kind": "secondary", "href": "https://drive.google.com/drive/folders/13lmMGvrRacKeYG9wop3bcOOqxdebxlB-?usp=drive_link" },
             { "label": "Click Here", "kind": "primary", "href": "https://forms.gle/w9uVKfxGB35jNf277" }
           ]
         },
@@ -166,37 +162,18 @@
           "title": "Semiconductors",
           "description": "The future of humanity depends on the advancement of semiconductor technology. Semiconductors are the foundation of innovation, driving fields such as AI, aerospace, flexible devices, and submarines. Understand why such a small device packs such a massive punch — and why every nation in the world is trying so hard to make it smaller.",
           "details": [
-            "Cost : ₹799  ₹599 (Discount until June 2025)",
             "20 Day Course",
             "107 Students mentored till date"
           ],
           "ctas": [
-            { "label": "Brochure", "kind": "secondary" },
+            { "label": "Brochure", "kind": "secondary", "href": "https://drive.google.com/drive/folders/1PZVDbXM3iwKIyQZgjPEmZ6KrH0RKvpRy?usp=drive_link" },
             { "label": "Click Here", "kind": "primary", "href": "https://forms.gle/6MhRLbdLcMuQma7k6" }
           ]
         },
         {
-          "id": "molecular-biology",
-          "title": "Molecular Biology and Genetics",
-          "description": "The Molecular Biology and Genetics masterclass and internship provide in-depth knowledge of microorganisms and essential lab techniques. You'll gain practical experience in culturing, identifying, and analyzing microbes, preparing you for advanced studies or a career in microbiology, biotechnology, or related fields.",
-          "details": [
-            "Level 1 - ₹1750",
-            "20 Day Course"
-          ],
-          "ctas": [
-            { "label": "Brochure", "kind": "secondary" },
-            { "label": "Click Here", "kind": "primary", "href": "https://forms.gle/fRBc4Li5KUY17Uum8" }
-          ]
-        },
-        {
-          "id": "ai-ml",
-          "title": "AI with ML",
-          "description": "The AI with ML masterclass and internship offer in-depth learning of artificial intelligence and machine learning concepts. You'll gain hands-on experience with algorithms, data analysis, and model building, equipping you with practical skills for careers in AI and data science.",
-          "details": [
-            "Level 1 - ₹1750",
-            "7 Day Class",
-            "Certified Masterclass"
-          ],
+          "id": "ai-python",
+          "title": "AI with Python",
+          "description": "Learn how to apply Python to build and work with AI — from core programming fundamentals to hands-on machine learning workflows.",
           "ctas": [
             { "label": "Brochure", "kind": "secondary" }
           ]
@@ -226,7 +203,6 @@
           "id": "chess",
           "title": "Chess",
           "description": "One of the world’s most loved games — with all its rages, sorrows and joys. Experience why people truly love this game, and learn what you should be doing to get better at it.",
-          "details": ["Cost - ₹14/month"],
           "tag": "Masterclass",
           "cta": { "label": "Click Here", "href": "https://forms.gle/vJFdifQADJMDRTGr5" }
         },
@@ -241,7 +217,6 @@
           "id": "mun",
           "title": "MUN",
           "description": "In a Model UN conference, students work as the representatives of a country, organisation, or person, and aim to solve real-world problems together with delegates from around the world. Join us to understand how it works and start your MUN journey.",
-          "details": ["Cost - ₹1200"],
           "tag": "Masterclass",
           "cta": { "label": "Click Here", "href": "https://forms.gle/sPcnxvSUpca6z3hs6" }
         },
@@ -367,7 +342,8 @@
       ],
       "documents": {
         "title": "View Our Public Documents",
-        "body": "Browse our publicly available documents to better understand how we work."
+        "body": "Browse our publicly available documents to better understand how we work.",
+        "href": "https://drive.google.com/drive/folders/1pJCgWzGVuIlgdZnmcIBqnVz1w9yA4FJ1?usp=sharing"
       }
     }
   },
@@ -387,6 +363,7 @@
         "title": "social",
         "links": [
           { "label": "Instagram", "href": "https://www.instagram.com/astro_ascend?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D", "icon": "instagram" },
+          { "label": "LinkedIn", "href": "https://www.linkedin.com/company/astroascend/", "icon": "linkedin" },
           { "label": "Email", "href": "mailto:astroascend17@gmail.com", "icon": "mail" },
           { "label": "YouTube", "href": "https://www.youtube.com/@astro_ascend", "icon": "youtube" }
         ]

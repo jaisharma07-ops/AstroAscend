@@ -92,6 +92,17 @@ export function MasterclassCard({ course, index }: { course: MasterclassCourse; 
                   />
                 </button>
               )
+            ) : cta.href ? (
+              <a
+                key={i}
+                href={cta.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="focus-ring inline-flex items-center gap-1.5 rounded-full border border-glass-border bg-bg/40 px-4 py-2 text-[13px] text-fg/85 backdrop-blur-md transition-colors hover:bg-fg/[0.05] hover:text-fg"
+              >
+                <FileText className="h-3.5 w-3.5" strokeWidth={1.6} />
+                {cta.label}
+              </a>
             ) : (
               <button
                 key={i}

@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { Instagram, Mail, Youtube, type LucideIcon } from "lucide-react";
+import { Instagram, Linkedin, Mail, Youtube, type LucideIcon } from "lucide-react";
 import { content } from "@/lib/content";
 import { LogoMark } from "@/components/logo";
 
 const ICONS: Record<string, LucideIcon> = {
   instagram: Instagram,
+  linkedin: Linkedin,
   mail: Mail,
   youtube: Youtube,
 };

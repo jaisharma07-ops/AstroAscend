@@ -137,13 +137,25 @@ export default function JoinUsPage() {
                 </p>
               </div>
               <div className="flex items-end lg:col-span-5 lg:justify-end">
-                <button
-                  type="button"
-                  className="focus-ring group inline-flex items-center gap-2 rounded-full border border-glass-border bg-bg/40 px-5 py-3 text-sm text-fg/90 backdrop-blur-md transition-colors hover:bg-fg/[0.05] hover:text-fg"
-                >
-                  <FileText className="h-4 w-4" strokeWidth={1.6} />
-                  Browse documents
-                </button>
+                {j.documents.href ? (
+                  <a
+                    href={j.documents.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="focus-ring group inline-flex items-center gap-2 rounded-full border border-glass-border bg-bg/40 px-5 py-3 text-sm text-fg/90 backdrop-blur-md transition-colors hover:bg-fg/[0.05] hover:text-fg"
+                  >
+                    <FileText className="h-4 w-4" strokeWidth={1.6} />
+                    Browse documents
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    className="focus-ring group inline-flex items-center gap-2 rounded-full border border-glass-border bg-bg/40 px-5 py-3 text-sm text-fg/90 backdrop-blur-md transition-colors hover:bg-fg/[0.05] hover:text-fg"
+                  >
+                    <FileText className="h-4 w-4" strokeWidth={1.6} />
+                    Browse documents
+                  </button>
+                )}
               </div>
             </div>
           </motion.div>

@@ -88,7 +88,7 @@ export const content = raw as unknown as {
       label: string;
       header: { title: string; subtitle: string };
       options: JoinOption[];
-      documents: { title: string; body: string };
+      documents: { title: string; body: string; href?: string };
     };
   };
   footer: {
